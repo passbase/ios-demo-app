@@ -1,0 +1,28 @@
+PODS:
+  - Passbase (1.7.0):
+    - Sentry (~> 4.3.1)
+    - ZoomAuthenticationHybrid (~> 7.0.18)
+  - Sentry (4.3.4):
+    - Sentry/Core (= 4.3.4)
+  - Sentry/Core (4.3.4)
+  - ZoomAuthenticationHybrid (7.0.18)
+
+DEPENDENCIES:
+  - Passbase
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Sentry
+  https://github.com/passbase/cocoapods-specs:
+    - Passbase
+  https://github.com/passbase/zoom-cocoapods-specs.git:
+    - ZoomAuthenticationHybrid
+
+SPEC CHECKSUMS:
+  Passbase: ae12642a86b89bbd9296fc082e2dc1df5c904fe8
+  Sentry: 26f0e6492b103e87434d1a5eea2d241a36f2c2a2
+  ZoomAuthenticationHybrid: 57023ca3362e225e906af1d449dcdc8ac466af9a
+
+PODFILE CHECKSUM: 56de3965482d5c5cb3fe3401fa62dd5df20d4240
+
+COCOAPODS: 1.8.4
