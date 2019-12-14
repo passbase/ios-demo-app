@@ -16,14 +16,14 @@ class ViewController: UIViewController, PassbaseDelegate {
         Passbase.delegate = self
 
         // Optional - You can pass additional attributes here or prefill the email to skip that step.
-        Passbase.additionalAttributes = ["userId":"a2ab4-f2jc4-k2dd4-1fa3x"]
-        Passbase.prefillUserEmail = "testuser@yourproject.com"
-
-        // Optional - UI Customizations e.g.:
-        Passbase.buttonUI.actionButtonBgColor = .black
-
-        let button = PassbaseButton(frame: CGRect(x: 40, y: 90, width: 300, height: 60))
-        self.view.addSubview(button)
+//        Passbase.additionalAttributes = ["userId":"a2ab4-f2jc4-k2dd4-1fa3x"]
+//        Passbase.prefillUserEmail = "testuser@yourproject.com"
+//
+//        // Optional - UI Customizations e.g.:
+//        Passbase.buttonUI.actionButtonBgColor = .black
+//
+//        let button = PassbaseButton(frame: CGRect(x: 40, y: 90, width: 300, height: 60))
+//        self.view.addSubview(button)
     }
     
     func didCompletePassbaseVerification(authenticationKey: String) {
