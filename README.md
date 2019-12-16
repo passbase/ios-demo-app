@@ -15,7 +15,7 @@ Ensure that you are using the latest XCode with Swift 5.1 support and that you a
 1. `cd` into the project and run `pod install` to install the Passbase SDK and dependencies
 2. Open the the file `Passbase Demo App.xcworkspace`
 3. Go into the `Appdelegate.swift` file and exchange `YOUR_PUBLISHABLE_API_KEY` with your own API key in line 19.
-4. Selecet a device and build & run the App (You might have to adjust the App's signing to your own)
+4. Select a device and build & run the App (You might have to adjust the App's signing to your own)
 
 The sample App has both the Storyboard integration, as well as programmatic approach commented out.
 
