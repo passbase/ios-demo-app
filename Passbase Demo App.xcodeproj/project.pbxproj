@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		170749CAE5ADFF6591BF9EF6 /* Pods_Passbase_Demo_App_Passbase_Demo_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53CF28D6535BEDBA606961B1 /* Pods_Passbase_Demo_App_Passbase_Demo_AppUITests.framework */; };
 		2D8BE00B23A44DED000E266B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8BE00A23A44DED000E266B /* AppDelegate.swift */; };
 		2D8BE00D23A44DED000E266B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8BE00C23A44DED000E266B /* SceneDelegate.swift */; };
 		2D8BE00F23A44DED000E266B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8BE00E23A44DED000E266B /* ViewController.swift */; };
@@ -16,8 +15,9 @@
 		2D8BE01723A44DF0000E266B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D8BE01523A44DF0000E266B /* LaunchScreen.storyboard */; };
 		2D8BE02223A44DF0000E266B /* Passbase_Demo_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8BE02123A44DF0000E266B /* Passbase_Demo_AppTests.swift */; };
 		2D8BE02D23A44DF1000E266B /* Passbase_Demo_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8BE02C23A44DF1000E266B /* Passbase_Demo_AppUITests.swift */; };
-		9350E8DBCE6E42CDB879C83E /* Pods_Passbase_Demo_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE9B6DDCD3A65E7D49B9121D /* Pods_Passbase_Demo_App.framework */; };
-		D024A07A7EF65758A9ECC405 /* Pods_Passbase_Demo_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7A8C5BA52AAD5C3792B8279 /* Pods_Passbase_Demo_AppTests.framework */; };
+		6FA3EA4A333BD70A1F861856 /* libPods-Passbase Demo App.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 95F4468F532028C2B8785BBD /* libPods-Passbase Demo App.a */; };
+		DFCCFA03A5C069DC3A777944 /* libPods-Passbase Demo AppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 066017318D10CFD3503438CF /* libPods-Passbase Demo AppTests.a */; };
+		F51F565DBC5407089D2B2F8A /* libPods-Passbase Demo App-Passbase Demo AppUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 967412D46A3C18D9C0304316 /* libPods-Passbase Demo App-Passbase Demo AppUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		066017318D10CFD3503438CF /* libPods-Passbase Demo AppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Passbase Demo AppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21138F1005F9F3E588AFF10A /* Pods-Passbase Demo App-Passbase Demo AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Passbase Demo App-Passbase Demo AppUITests.release.xcconfig"; path = "Target Support Files/Pods-Passbase Demo App-Passbase Demo AppUITests/Pods-Passbase Demo App-Passbase Demo AppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		26F2D3AB85492BDC506EF553 /* Pods-Passbase Demo App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Passbase Demo App.release.xcconfig"; path = "Target Support Files/Pods-Passbase Demo App/Pods-Passbase Demo App.release.xcconfig"; sourceTree = "<group>"; };
 		2D8BE00723A44DED000E266B /* Passbase Demo App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Passbase Demo App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,11 +55,10 @@
 		2D8BE02823A44DF1000E266B /* Passbase Demo AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Passbase Demo AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D8BE02C23A44DF1000E266B /* Passbase_Demo_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Passbase_Demo_AppUITests.swift; sourceTree = "<group>"; };
 		2D8BE02E23A44DF1000E266B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		53CF28D6535BEDBA606961B1 /* Pods_Passbase_Demo_App_Passbase_Demo_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Passbase_Demo_App_Passbase_Demo_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CCED44A9BEB927556C9A173 /* Pods-Passbase Demo AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Passbase Demo AppTests.release.xcconfig"; path = "Target Support Files/Pods-Passbase Demo AppTests/Pods-Passbase Demo AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		95F4468F532028C2B8785BBD /* libPods-Passbase Demo App.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Passbase Demo App.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		967412D46A3C18D9C0304316 /* libPods-Passbase Demo App-Passbase Demo AppUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Passbase Demo App-Passbase Demo AppUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		98C2195E0670FE01A96D545C /* Pods-Passbase Demo AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Passbase Demo AppTests.debug.xcconfig"; path = "Target Support Files/Pods-Passbase Demo AppTests/Pods-Passbase Demo AppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		D7A8C5BA52AAD5C3792B8279 /* Pods_Passbase_Demo_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Passbase_Demo_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE9B6DDCD3A65E7D49B9121D /* Pods_Passbase_Demo_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Passbase_Demo_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC359589616E897530532799 /* Pods-Passbase Demo App-Passbase Demo AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Passbase Demo App-Passbase Demo AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-Passbase Demo App-Passbase Demo AppUITests/Pods-Passbase Demo App-Passbase Demo AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		FADA958E1301943A2521A1C9 /* Pods-Passbase Demo App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Passbase Demo App.debug.xcconfig"; path = "Target Support Files/Pods-Passbase Demo App/Pods-Passbase Demo App.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -68,7 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9350E8DBCE6E42CDB879C83E /* Pods_Passbase_Demo_App.framework in Frameworks */,
+				6FA3EA4A333BD70A1F861856 /* libPods-Passbase Demo App.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,7 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D024A07A7EF65758A9ECC405 /* Pods_Passbase_Demo_AppTests.framework in Frameworks */,
+				DFCCFA03A5C069DC3A777944 /* libPods-Passbase Demo AppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,7 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				170749CAE5ADFF6591BF9EF6 /* Pods_Passbase_Demo_App_Passbase_Demo_AppUITests.framework in Frameworks */,
+				F51F565DBC5407089D2B2F8A /* libPods-Passbase Demo App-Passbase Demo AppUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,9 +162,9 @@
 		D9CEE0B0947856CB7D8F473F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DE9B6DDCD3A65E7D49B9121D /* Pods_Passbase_Demo_App.framework */,
-				53CF28D6535BEDBA606961B1 /* Pods_Passbase_Demo_App_Passbase_Demo_AppUITests.framework */,
-				D7A8C5BA52AAD5C3792B8279 /* Pods_Passbase_Demo_AppTests.framework */,
+				95F4468F532028C2B8785BBD /* libPods-Passbase Demo App.a */,
+				967412D46A3C18D9C0304316 /* libPods-Passbase Demo App-Passbase Demo AppUITests.a */,
+				066017318D10CFD3503438CF /* libPods-Passbase Demo AppTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

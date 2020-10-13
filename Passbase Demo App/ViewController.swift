@@ -26,6 +26,10 @@ class ViewController: UIViewController, PassbaseDelegate {
 //        self.view.addSubview(button)
     }
     
+    func didStartPassbaseVerification() {
+        print("User started Passbase Verification")
+    }
+    
     func didCompletePassbaseVerification(authenticationKey: String) {
         print("User completed Passbase Verification")
     }
