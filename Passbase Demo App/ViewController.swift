@@ -9,33 +9,33 @@
 import Passbase
 import UIKit
 
-class ViewController: UIViewController, PassbaseDelegate {
+class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        Passbase.delegate = self
+        PassbaseSDK.delegate = self
 
-        // Optional - You can pass additional attributes here or prefill the email to skip that step.
-//        Passbase.additionalAttributes = ["userId":"a2ab4-f2jc4-k2dd4-1fa3x"]
-//        Passbase.prefillUserEmail = "testuser@yourproject.com"
-//
-//        // Optional - UI Customizations e.g.:
-//        Passbase.buttonUI.actionButtonBgColor = .black
-//
+        // Optional - You can prefill the email to skip that step.
+//        PassbaseSDK.prefillUserEmail = "testuser@yourproject.com"
+
 //        let button = PassbaseButton(frame: CGRect(x: 40, y: 90, width: 300, height: 60))
 //        self.view.addSubview(button)
     }
+}
+
+
+extension ViewController: PassbaseDelegate {
     
-    func didStartPassbaseVerification() {
-        print("User started Passbase Verification")
-    }
-    
-    func didCompletePassbaseVerification(authenticationKey: String) {
+    func onFinish(identityAccessKey: String) {
         print("User completed Passbase Verification")
     }
-
-    func didCancelPassbaseVerification() {
-        print("User canceled Passbase Verification")
+    
+    func onError(errorCode: String) {
+        print("Passbase Verification error")
+    }
+    
+    func onStart() {
+        print("User started Passbase Verification")
     }
 }
 
