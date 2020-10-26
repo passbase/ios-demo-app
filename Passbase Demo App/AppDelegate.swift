@@ -14,7 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
-        PassbaseSDK.initialize(publishableApiKey: "f694efd68ec5b99623ec8588c4bcfbf1f58e19d93c653d88c5dd1a7aac289536") //YOUR_PUBLISHABLE_API_KEY
+        PassbaseSDK.initialize(publishableApiKey: "YOUR_PUBLISHABLE_API_KEY")
         
         return true
     }
