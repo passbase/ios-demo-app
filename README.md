@@ -1,4 +1,4 @@
-![alt text](https://passbase.com/assets/images/meta.jpg "Passbase Header")
+![alt text](https://i.imgur.com/cOj85Lg.jpg "Passbase Header")
 
 # Official Passbase iOS Demo App
 
