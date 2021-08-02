@@ -1,6 +1,5 @@
 # 1. Add this here
 source 'https://github.com/CocoaPods/Specs.git'
-source 'https://github.com/passbase/zoomauthentication-cocoapods-specs.git'
 source 'https://github.com/passbase/cocoapods-specs.git'
 source 'https://github.com/passbase/microblink-cocoapods-specs.git'
 
@@ -13,14 +12,4 @@ target 'Passbase Demo App' do
 
   # 4. Add Passbase pod
   pod 'Passbase'
-
-  target 'Passbase Demo AppTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-  target 'Passbase Demo AppUITests' do
-    # Pods for testing
-  end
-
 end

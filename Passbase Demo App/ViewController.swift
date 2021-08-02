@@ -16,15 +16,19 @@ class ViewController: UIViewController {
         PassbaseSDK.delegate = self
 
         // Optional - You can prefill the email to skip that step.
-//        PassbaseSDK.prefillUserEmail = "testuser@yourproject.com"
+        //PassbaseSDK.prefillUserEmail = "testuser@yourproject.com"
 
-//        let button = PassbaseButton(frame: CGRect(x: 40, y: 90, width: 300, height: 60))
-//        self.view.addSubview(button)
+        //let button = PassbaseButton(frame: CGRect(x: 40, y: 90, width: 300, height: 60))
+        //self.view.addSubview(button)
     }
 }
 
 
 extension ViewController: PassbaseDelegate {
+    
+    func onSubmitted(identityAccessKey: String) {
+        print("User completed Passbase Verification")
+    }
     
     func onFinish(identityAccessKey: String) {
         print("User completed Passbase Verification")
