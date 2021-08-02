@@ -26,10 +26,6 @@
 		2D8BE01323A44DF0000E266B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D8BE01623A44DF0000E266B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D8BE01823A44DF0000E266B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2D8BE02123A44DF0000E266B /* Passbase_Demo_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Passbase_Demo_AppTests.swift; sourceTree = "<group>"; };
-		2D8BE02323A44DF0000E266B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2D8BE02C23A44DF1000E266B /* Passbase_Demo_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Passbase_Demo_AppUITests.swift; sourceTree = "<group>"; };
-		2D8BE02E23A44DF1000E266B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		95F4468F532028C2B8785BBD /* libPods-Passbase Demo App.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Passbase Demo App.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		967412D46A3C18D9C0304316 /* libPods-Passbase Demo App-Passbase Demo AppUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Passbase Demo App-Passbase Demo AppUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -50,8 +46,6 @@
 			isa = PBXGroup;
 			children = (
 				2D8BE00923A44DED000E266B /* Passbase Demo App */,
-				2D8BE02023A44DF0000E266B /* Passbase Demo AppTests */,
-				2D8BE02B23A44DF1000E266B /* Passbase Demo AppUITests */,
 				2D8BE00823A44DED000E266B /* Products */,
 				D9CEE0B0947856CB7D8F473F /* Frameworks */,
 			);
@@ -77,24 +71,6 @@
 				2D8BE01823A44DF0000E266B /* Info.plist */,
 			);
 			path = "Passbase Demo App";
-			sourceTree = "<group>";
-		};
-		2D8BE02023A44DF0000E266B /* Passbase Demo AppTests */ = {
-			isa = PBXGroup;
-			children = (
-				2D8BE02123A44DF0000E266B /* Passbase_Demo_AppTests.swift */,
-				2D8BE02323A44DF0000E266B /* Info.plist */,
-			);
-			path = "Passbase Demo AppTests";
-			sourceTree = "<group>";
-		};
-		2D8BE02B23A44DF1000E266B /* Passbase Demo AppUITests */ = {
-			isa = PBXGroup;
-			children = (
-				2D8BE02C23A44DF1000E266B /* Passbase_Demo_AppUITests.swift */,
-				2D8BE02E23A44DF1000E266B /* Info.plist */,
-			);
-			path = "Passbase Demo AppUITests";
 			sourceTree = "<group>";
 		};
 		D9CEE0B0947856CB7D8F473F /* Frameworks */ = {
